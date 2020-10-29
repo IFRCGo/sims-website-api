@@ -2,12 +2,15 @@
 // there is a config.js.example file that should match the structure and properties of this file that IS checked in to the repo
 
 
-var settings = {}
+var settings = {};
 
 settings.application = {
-	port: 3000,
-	prjfolder: "",
-	dboxpath: ""
+        port: 3008,
+        prjfolder: "rcrcsims",
+        toolkitfolder: "toolkit",
+        galleryfolder: "gallery",
+        validgalleryext: [".jpg", ".jpeg", ".png"],
+        dboxpath: "/home/ubuntu/Dropbox (AmRC ISD)/API"
 }
 
 module.exports = settings;
